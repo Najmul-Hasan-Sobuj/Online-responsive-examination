@@ -14,9 +14,9 @@ header("Last-Modified: " . gmdate("D, d M Y H:i:s") . " GMT");
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
     <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
-        integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
     <link rel="stylesheet" href="../img/68f1c83f-5881-4e6b-9e6c-b213f987b21f.gif">
+    <link rel="stylesheet" href="../css/style.css">
 
     <title>najmulhasan</title>
 </head>
@@ -24,7 +24,7 @@ header("Last-Modified: " . gmdate("D, d M Y H:i:s") . " GMT");
 <body>
     <div class="container">
         <nav class="navbar navbar-expand-lg navbar-light bc fixed-top">
-            <a class="navbar-brand" href="index.html">CAptainsj</a>
+            <a class="navbar-brand" href="../index.html">CAptainsj</a>
             <button class="navbar-toggler" data-target="#my-nav" data-toggle="collapse" aria-controls="my-nav"
                 aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -32,7 +32,7 @@ header("Last-Modified: " . gmdate("D, d M Y H:i:s") . " GMT");
             <div id="my-nav" class="collapse navbar-collapse justify-content-end">
                 <ul class="navbar-nav">
                     <li class="nav-item">
-                        <a class="nav-link text-center text-white active" href="login.html">Login<span
+                        <a class="nav-link text-center text-white active" href="../login.html">Login<span
                                 class="sr-only"></span></a>
                     </li>
                     <li class="nav-item ">
@@ -40,11 +40,11 @@ header("Last-Modified: " . gmdate("D, d M Y H:i:s") . " GMT");
                                 class="sr-only"></span></a>
                     </li>
                     <li class="nav-item ">
-                        <a class="nav-link text-center text-white active" href="exam.html">Exam <span
+                        <a class="nav-link text-center text-white active" href="../exam.html">Exam <span
                                 class="sr-only"></span></a>
                     </li>
                     <li class="nav-item ">
-                        <a class="nav-link text-center text-white active" href="reg.html">Register <span
+                        <a class="nav-link text-center text-white active" href="../reg.html">Register <span
                                 class="sr-only"></span></a>
                     </li>
                     <li class="nav-item ">
