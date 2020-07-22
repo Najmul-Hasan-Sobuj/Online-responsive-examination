@@ -16,9 +16,9 @@ header("Last-Modified: " . gmdate("D, d M Y H:i:s") . " GMT");
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
         integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="../img/68f1c83f-5881-4e6b-9e6c-b213f987b21f.gif">
 
-    <title>Hello, world!</title>
+    <title>najmulhasan</title>
 </head>
 
 <body>
