@@ -1,4 +1,4 @@
-<?php include 'inc/header.php'; ?>
+<?php include 'header.php'; ?>
     <div class="section1">
         <div class="title pt-5 text-center">
             <h1 class="pt-5 text-success">Welcome to Online Exam</h1>

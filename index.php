@@ -1,4 +1,4 @@
-<?php include 'inc/header.php'; ?>
+<?php include_once('header.php'); ?>
     <div class="bg pt-5"></div>
 
 
