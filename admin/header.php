@@ -11,7 +11,7 @@
         integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.1/css/all.css"
         integrity="sha384-xxzQGERXS00kBmZW/6qxqJPyxW3UR0BPsL4c8ILaIWXva5kFi7TxkIIaMiKtqV1Q" crossorigin="anonymous">
-    <link rel="stylesheet" href="../style.css">
+    <link rel="stylesheet" href="../css/style.css">
 
     <title>Hello, world!</title>
 </head>
@@ -44,32 +44,6 @@
 
         <div class="view pt-5 intro-2">
             <div class="full-bg-img">
-                <div class="mask rgba-indigo-slight flex-center">
-                    <div class="container">
-                        <div class="white-text text-center wow fadeInUp pt-5">
-                            <h2>PlayerUnknown's Battlegrounds</h2>
-                            <div class="row">
-                                <div class="col-md-12">
-                                    <img class="img-fluid" src="pubg_PNG46.png" alt="">
-                                </div>
-                            </div>
-                            <div class="card-title">
-                                <div class="row">
-                                    <div class="col-md-12">
-                                        <h5 class="">আমার সোনার বাংলা আমি তোমায় ভালোবাসি </h5>
-                                        <br>
-                                        <p class="text-white">
-                                            I hated every minute of training, but I said, Don't quit. Suffer now and
-                                            live the
-                                            rest
-                                            of your life as a champion.</p> <br>
-                                        <strong class="text-white-50" style="float: right;"> Muhammad Ali.</strong>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
             </div>
         </div>
     </header>
