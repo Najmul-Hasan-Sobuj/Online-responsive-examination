@@ -22,7 +22,7 @@
                 </div>
                 <div class="col-md-3"></div>
             </div>
-        </div>
+        </div> 
     </div>
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
