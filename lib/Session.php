@@ -16,24 +16,37 @@ class Session{
 	 	}
 	 }
 
-	 public static function checkSession(){
+public static function checkAdminSession(){
 	 	self::init();
-	 	if (self::get("login") == false) {
+	 	if (self::get("adminLogin") == false) {
 	 		self::destroy();
 	 		header("Location:login.php");
 	 	}
 	 }
 
-	 public static function checkLogin(){
+	  public static function checkAdminLogin(){
 	 	self::init();
-	 	if (self::get("login") == true) {
+	 	if (self::get("adminLogin") == true) {
 	 		header("Location:index.php");
+	 	}
+	 }
+
+	 public static function checkSession(){
+	 	if (self::get("login") == false) {
+	 		self::destroy();
+	 		header("Location:index.php");
+	 	}
+	 }
+
+	 public static function checkLogin(){
+	 	if (self::get("login") == true) {
+	 		header("Location:exam.php");
 	 	}
 	 }
 
 	 public static function destroy(){
 	 	session_destroy();
-	 	header("Location:login.php");
+	 	session_unset();
 	 }
 }
 
