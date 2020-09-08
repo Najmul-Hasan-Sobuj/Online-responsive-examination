@@ -1,4 +1,5 @@
-<?php include 'header.php'; ?>
+<?php include 'inc/header.php'; ?>
+<?php Session::checkSession(); ?>
 
     <div class="section1">
         <div class="title pt-5 text-center">
@@ -20,7 +21,7 @@
                     </div>
                     <ul class="list-group pt-5">
                         <li class="list-group-item list-group-item-primary"><a
-                                class="help-link nav-link font-weight-bold" href="test.php">Start
+                                class="help-link nav-link font-weight-bold" href="starttest.php">Start
                                 Now...</a>
                         </li>
                     </ul>
