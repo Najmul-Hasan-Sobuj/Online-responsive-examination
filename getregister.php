@@ -4,9 +4,12 @@ include_once ($filepath.'/classes/User.php');
 $usr = new User();
 
 if ($_SERVER['REQUEST_METHOD'] == 'POST') {
-	$email = $_POST['email'];
+	$name = $_POST['name'];
+	$username = $_POST['username'];
 	$password = $_POST['password'];
-	$userlogin = $usr->userLogin($email,$password);
+	$email = $_POST['email'];
 
+	$userregi = $usr->userRegistration($name,$username,$password,$email);
 }
+
 ?>
