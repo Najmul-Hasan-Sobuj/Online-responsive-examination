@@ -1,20 +1,36 @@
-<?php include_once('header.php'); ?>
-    <div class="bg pt-5"></div>
+<?php include 'inc/header.php'; ?>
+<?php
+Session::checkLogin();
+?>
+
+<div class="section1">
+        <div class="title pt-5 text-center">
+            <h1 class="pt-3 text-success">Online Exam System - User Login</h1>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3"></div>
+                <div class="col-md-6">
+                    <form class="" method="post">
+                        <div class="form-group pt-5">
+                            <label for="email">Email</label>
+                            <input name="email" type="email" class="form-control" id="email">
+                        </div>
+                        <div class="form-group">
+                            <label for="password">Password</label>
+                             <input name="password" type="password" class="form-control" id="password">
+                        </div>
+                        <button type="submit" id="loginsubmit" value="Login" class="btn btn-primary float-right">Log in</button>
+                    </form>
+<p>New User ? <a href="register.php">Signup</a> Free</p>
+	   <span class="empty" style="display: none;">Field must not be empty !</span>
+	   <span class="error" style="display: none;">Email or Password not matched !</span>
+	   <span class="disable" style="display: none;">User Id disabled !</span>
+                </div>
+                <div class="col-md-3"></div>
+            </div>
+        </div> 
+    </div>
 
 
-
-
-    <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
-        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
-        crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
-        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
-        crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
-        integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
-        crossorigin="anonymous"></script>
-</body>
-
-</html>
+<?php include 'inc/footer.php'; ?>

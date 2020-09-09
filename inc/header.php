@@ -54,27 +54,43 @@ header("Last-Modified: " . gmdate("D, d M Y H:i:s") . " GMT");
             </button>
             <div id="my-nav" class="collapse navbar-collapse justify-content-end">
                 <ul class="navbar-nav">
-                    <li class="nav-item">
-                        <a class="nav-link text-center text-white active" href="login.php">Login<span
-                                class="sr-only"></span></a>
-                    </li>
+			<?php
+			$login = Session::get("login");
+			if ($login == true) {?>
+
                     <li class="nav-item ">
-                        <a class="nav-link text-center text-white active" href="#">Profile <span
+                        <a class="nav-link text-center text-white active" href="profile.php">Profile <span
                                 class="sr-only"></span></a>
                     </li>
                     <li class="nav-item ">
                         <a class="nav-link text-center text-white active" href="exam.php">Exam <span
                                 class="sr-only"></span></a>
-                    </li>
+                    </li>	
                     <li class="nav-item ">
-                        <a class="nav-link text-center text-white active" href="reg.php">Register <span
+                        <a class="nav-link text-center text-white active" href="?action=logout">Logout <span
                                 class="sr-only"></span></a>
                     </li>
+		<?php } else { ?>
+
                     <li class="nav-item ">
-                        <a class="nav-link text-center text-white active" href="#">Logout <span
+                        <a class="nav-link text-center text-white active" href="register.php">Register <span
                                 class="sr-only"></span></a>
                     </li>
+		<li class="nav-item">
+                        <a class="nav-link text-center text-white active" href="index.php">Login<span
+                                class="sr-only"></span></a>
+                    </li>
+		<?php } ?>
                 </ul>
+		<?php
+			$login = Session::get("login");
+			if ($login == true) {?>
+
+		<span style="float: right;color: #888;">
+			
+			Welcome <strong><?php echo Session::get('name') ; ?></strong>
+		</span>
+		<?php } ?>
             </div>
         </nav>
     </div>
