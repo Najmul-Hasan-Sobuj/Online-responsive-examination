@@ -31,7 +31,7 @@ header("Last-Modified: " . gmdate("D, d M Y H:i:s") . " GMT");
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
-    <link rel="stylesheet" href="">
+    <link rel="stylesheet" href="css/style.css">
     <title>najmulhasan</title>
 
 </head>
