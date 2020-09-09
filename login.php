@@ -1,4 +1,4 @@
-<?php include 'header.php'; ?>
+<?php include 'inc/header.php'; ?>
 
     <div class="section1">
         <div class="title pt-5 text-center">
